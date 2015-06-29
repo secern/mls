@@ -5,6 +5,7 @@
 *  Sends "Hello" to server, expects "World" back
 * @author Ian Barber <ian(dot)barber(at)gmail(dot)com>
 */
+ini_set("display_errors", true);
 
 $context = new ZMQContext();
 
