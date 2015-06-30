@@ -32,6 +32,6 @@ function myLog($content, $isObj = false){
     if($isObj){
         $content = serialize($content);
     }
-    $logTxt = fopen(dirname(__FILE__)."/log.txt", "w");
+    $logTxt = fopen(dirname(__FILE__)."/log.txt", "a+");
     fwrite($logTxt, $content."\n");
 }
