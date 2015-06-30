@@ -20,11 +20,11 @@ $requester->connect("tcp://192.168.1.79:5555");
 for ($request_nbr = 0; $request_nbr != 10; $request_nbr++) {
     printf ("Sending request %d…\n", $request_nbr);
 
-myLog("before send \r\n");
+myLog("before send ");
     $requester->send("Hello");
-myLog("after send \r\n");
+myLog("after send ");
     $reply = $requester->recv();
-myLog("after rev \r\n");
+myLog("after rev :".$reply);
     printf ("Received reply %d: [%s]\n", $request_nbr, $reply);
 }
 
@@ -33,5 +33,5 @@ function myLog($content, $isObj = false){
         $content = serialize($content);
     }
     $logTxt = fopen(dirname(__FILE__)."/log.txt", "a+");
-    fwrite($logTxt, $content."\n");
+    fwrite($logTxt, $content."\r\n");
 }
