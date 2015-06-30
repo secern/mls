@@ -17,7 +17,7 @@ echo "Connecting to hello world server…\n";
 $requester = new ZMQSocket($context, ZMQ::SOCKET_REQ);
 $requester->connect("tcp://192.168.1.79:5555");
 
-for ($request_nbr = 0; $request_nbr != 10; $request_nbr++) {
+for ($request_nbr = 0; $request_nbr <= 10; $request_nbr++) {
     printf ("Sending request %d…\n", $request_nbr);
 
 myLog("before send ");
