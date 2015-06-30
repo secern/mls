@@ -12,7 +12,7 @@ $context = new ZMQContext(1);
 
 //  Socket to talk to clients
 $responder = new ZMQSocket($context, ZMQ::SOCKET_REP);
-$responder->bind("tcp://*:5555");
+$responder->bind("tcp://127.0.0.1:5555");
 
 while (true) {
     //  Wait for next request from client
