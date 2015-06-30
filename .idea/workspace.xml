@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3508bc9-fb5b-48b2-bbe4-4ac7aaf30351" name="!changes.default.changlist.name!" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
-    </list>
+    <list default="true" id="d3508bc9-fb5b-48b2-bbe4-4ac7aaf30351" name="!changes.default.changlist.name!" comment="" />
     <ignored path="mls_local_virtual.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +26,7 @@
       <file leaf-file-name="client.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="32" selection-start="840" selection-end="840" vertical-scroll-proportion="0.69150174" vertical-offset="0" max-vertical-offset="859">
+            <state line="24" column="60" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48661235" vertical-offset="0" max-vertical-offset="859">
               <folding />
             </state>
           </provider>
@@ -167,7 +165,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="32" selection-start="840" selection-end="840" vertical-scroll-proportion="0.69150174" vertical-offset="0" max-vertical-offset="859">
+        <state line="24" column="60" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48661235" vertical-offset="0" max-vertical-offset="859">
           <folding />
         </state>
       </provider>
