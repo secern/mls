@@ -26,7 +26,7 @@
       <file leaf-file-name="client.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="60" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48661235" vertical-offset="0" max-vertical-offset="859">
+            <state line="16" column="54" selection-start="379" selection-end="379" vertical-scroll-proportion="0.28172293" vertical-offset="0" max-vertical-offset="859">
               <folding />
             </state>
           </provider>
@@ -126,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="更改" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -165,7 +165,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="60" selection-start="634" selection-end="634" vertical-scroll-proportion="0.48661235" vertical-offset="0" max-vertical-offset="859">
+        <state line="16" column="54" selection-start="379" selection-end="379" vertical-scroll-proportion="0.28172293" vertical-offset="0" max-vertical-offset="859">
           <folding />
         </state>
       </provider>

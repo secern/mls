@@ -20,10 +20,11 @@ $requester->connect("tcp://192.168.1.79:5555");
 for ($request_nbr = 0; $request_nbr != 10; $request_nbr++) {
     printf ("Sending request %d…\n", $request_nbr);
 
+myLog("before send \r\n");
     $requester->send("Hello");
-myLog("abc");
+myLog("after send \r\n");
     $reply = $requester->recv();
-myLog("abcd");
+myLog("after rev \r\n");
     printf ("Received reply %d: [%s]\n", $request_nbr, $reply);
 }
 
