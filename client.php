@@ -9,6 +9,10 @@
 
 ini_set("display_errors", true);
 
+$conn = new mysql_connect("localhost", "root", "123456");
+mysql_select_db("test", $conn);
+mysql_query("set names 'utf-8'");
+
 $context = new ZMQContext();
 
 //  Socket to talk to server
@@ -24,7 +28,10 @@ ob_flush();
 flush();
     $requester->send("Hello");
 
+    mysql_query("insert into test.test(content) values('hello')");
+
     $reply = $requester->recv();
+    mysql_query("insert into test.test(content) values('reply')");
     printf ("Received reply %d: [%s]\n", $request_nbr, $reply);
 ob_flush();
 flush();
